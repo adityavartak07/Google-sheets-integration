@@ -1,0 +1,21 @@
+{
+  "name": "goole-sheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "CHOKIDAR_USEPOLLING=true nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.1.1",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^39.2.0",
+    "open": "^8.4.0"
+  }
+}
